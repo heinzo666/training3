@@ -1,7 +1,7 @@
 import os
 from git import Repo
 import datetime as dt
-tgl = dt.datetime.now().strftime("%y%m%d_%H%M%S%f")
+#tgl = dt.datetime.now().strftime("%y%m%d_%H%M%S%f")
 os.chdir('../training')
 import shutil
 shutil.make_archive('HEINZO', 'zip', '/content/images')
