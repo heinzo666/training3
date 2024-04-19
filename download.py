@@ -14,7 +14,7 @@ os.rename(backupname, backup)
 
 repo = Repo(full_local_path)
 repo.git.add("-A")
-repo.index.commit("user_fakes")
+repo.index.commit("user_fakesAll")
 
 #repo = Repo(full_local_path)
 origin = repo.remote(name="origin")
